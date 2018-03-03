@@ -56,7 +56,7 @@ public class addArtServlet<ListItemHelper> extends HttpServlet {
 		dao.insertItem(li);
 
 		getServletContext().getRequestDispatcher("/addArt.html").forward(request, response);
-		doGet(request, response);
+		//doGet(request, response);
 	}
 
 }
